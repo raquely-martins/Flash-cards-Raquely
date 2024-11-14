@@ -13,6 +13,15 @@ function crriaCartao(categoria, pergunta, reposta) {
                     </div>
                 </div> `
 
+
+
+            let respostaEstaVisivil = false
+
+            function viraCartao () {
+                respostaEstaVisivil = !respostaEstaVisivil;
+                cartao.classList.toggle('active', respostaEstaVisivil);
+            }
+            cartao.addEventListener('click', viraCartao)
                 container.appendChild(cartao);
       
                 
