@@ -14,6 +14,6 @@ function crriaCartao(categoria, pergunta, reposta) {
                 </div> `
 
                 container.appendChild(cartao);
+      
                 
-
 }
